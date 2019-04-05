@@ -53,6 +53,8 @@ Sub Picture()
             Left:=cell.Left, Top:=cell.Top + 2, Width:=cell.Width, Height:=cell.Height - 2
             
 '   -----------------------------------------------------------
+'        PREVIOUS WAY OF DOING IT:
+
 '            With pic
 '                .ShapeRange.LockAspectRatio = msoFalse
 '                .Height = cell.Height
